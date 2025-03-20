@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222831; /* Dark background */
+    color: #EEEEEE; /* Light text */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #31363F; /* Slightly lighter background */
+    color: #76ABAE; /* Accent color for header text */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.project-list {
+    margin: 20px;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #31363F; /* Slightly lighter background for project items */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #76ABAE; /* Accent color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1em;
+    color: #EEEEEE; /* Light color for descriptions */
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #31363F; /* Match footer with header */
+    color: #76ABAE; /* Accent color for footer text */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
